@@ -1,0 +1,16 @@
+clear;
+Initialv5;
+maps;
+dlmwrite('../ResultCompare/RepeatIter0mmap.dat',mmap);
+dlmwrite('../ResultCompare/RepeatIter0dmap.dat',dmap);
+dlmwrite('../ResultCompare/RepeatIter0pmap.dat',pmap);
+dlmwrite('../ResultCompare/RepeatIter0tmapf.dat',tmapf);
+dlmwrite('../ResultCompare/RepeatIter0tmaps.dat',tmaps);
+focus;
+focus;
+maps;
+dlmwrite('../ResultCompare/RepeatIter2mmap.dat',mmap);
+dlmwrite('../ResultCompare/RepeatIter2dmap.dat',dmap);
+dlmwrite('../ResultCompare/RepeatIter2pmap.dat',pmap);
+dlmwrite('../ResultCompare/RepeatIter2tmapf.dat',tmapf);
+dlmwrite('../ResultCompare/RepeatIter2tmaps.dat',tmaps);
