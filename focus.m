@@ -80,8 +80,8 @@ for num = 1:137
         maxint = D(2);
         intf(num) = C(2);
     end;
-    %num
-    %maxint
+    num
+    maxint
     ints(num) = maxint;
 end;
 toc;
